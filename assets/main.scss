@@ -5,10 +5,18 @@ $text-color: #46433A;
 $anchor-text-color: #CE534D;
 $background-color: #F1EED9;
 
-body {
+/*body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
 	background-color: $background-color;
+}
+*/
+
+body{
+	font-family : 'Lato', sans-serif;
+	color: $text-color;
+	background-color: $background-color;
+
 }
 
 header,
@@ -19,6 +27,14 @@ main {
 /*** wrapper div for both header and main ***/
 .wrapper {
 	margin-top: 10%;
+}
+
+iframe{
+
+	border: none;
+	width: 300px;
+	height: 600px;
+
 }
 
 /*** anchor tags ***/
@@ -60,8 +76,8 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 	background-size: cover;
 	border-radius: 50%;
@@ -72,16 +88,16 @@ since it must be aligned with the content */
 
 /*** author ***/
 .author-container h1 {
-	font-size: 2.8em;
+	font-size: 2em;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: center;
+	text-align: left;
 }
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1.3em;
-	text-align: center;
+	font-size: 1.5em;
+	text-align: left;
 	margin-bottom: 2em;
 }
 
@@ -89,6 +105,7 @@ since it must be aligned with the content */
 .icon-container {
 	text-align: center;
 	margin-bottom: 1em;
+	margin-left: 1em;
 }
 
 .fa {
@@ -148,7 +165,8 @@ footer {
 
 	.author-container h1,
 	.logo-container,
-	.tagline-container p {
+	.tagline-container p,
+	.links-container{
 		text-align: right;
 	}
 
