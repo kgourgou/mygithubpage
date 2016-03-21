@@ -34,8 +34,8 @@ layout: base
     <main>
 
     
-     <h1> My Research </h1>
-      <h2> Publications </h2>
+     <h2> My Research </h2>
+      <h3> Publications </h3>
 
         <ul> 
             <li> Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel kMC*, with Markos A. Katsoulakis and Luc Rey-Bellet. [[ArXiv]](http://arxiv.org/abs/1511.08240) </li>
