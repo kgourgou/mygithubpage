@@ -26,22 +26,22 @@ layout: base
         </div>
 
         {% if site.compass.tagline %}
-        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+        <div class="tagline-container"><p>    <a href="../index.html"><i class="fa fa-arrow-circle-o-left fa-2x">BACK</i></a>
+</p></div>
         {% endif %}
 
     </header>
     <main>
-    <a href="../index.html"><i class="fa fa-arrow-circle-o-left fa-2x">BACK</i></a>
 
     
-     # My Research
+     <h1> My Research </h1>
+      <h2> Publications </h2>
 
-    ## Publications
-
-    * *Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel kMC*, with Markos A. Katsoulakis and Luc Rey-Bellet. [[ArXiv]](http://arxiv.org/abs/1511.08240)
-
-
-    * *Metrics for irreversibility of splitting schemes in parallel kMC*, with Markos A. Katsoulakis and Luc Rey-Bellet (In preparation, title may change).
+        <ul> 
+            <li> Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel kMC*, with Markos A. Katsoulakis and Luc Rey-Bellet. [[ArXiv]](http://arxiv.org/abs/1511.08240) </li>
+            
+            <li> Metrics for irreversibility of splitting schemes in parallel kMC, with Markos A. Katsoulakis and Luc Rey-Bellet (In preparation, title may change).</li>
+        </ul>
     </main>
 </div>
 
