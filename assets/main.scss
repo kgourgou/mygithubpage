@@ -58,6 +58,12 @@ a:hover {
 	margin: 0.8em 0;
 }
 
+.buttons {
+	  font-weight: bold;
+	  font-size: 2.2em;
+	  margin: 0.4em 0;
+    color: $text-color;
+}
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
 .fa-ul.main-list {
