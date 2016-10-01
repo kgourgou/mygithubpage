@@ -38,7 +38,7 @@ layout: base
       <h3> Publications </h3>
 
         <ul> 
-            <li> Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel KMC, with Markos A. Katsoulakis and Luc Rey-Bellet. <a href="http://arxiv.org/abs/1511.08240">ArXiv</a></li>
+            <li> Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel KMC, with Markos A. Katsoulakis and Luc Rey-Bellet. <a href="http://arxiv.org/abs/1511.08240">ArXiv</a> Accepted at SISC.</li>
             
             <li> Information Criteria for quantifying loss of reversibility in parallelized KMC, with Markos A. Katsoulakis and Luc Rey-Bellet. <a href="https://arxiv.org/abs/1605.02375">ArXiv</a> </li>
         </ul>
