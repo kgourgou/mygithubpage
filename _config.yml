@@ -1,33 +1,21 @@
-# general configuration
-url: "kgourgou.me"
-baseurl: ''
-
-# compass configuration
-compass:
-
-  # an avatar or logo (optional)
-  logo: "/images/me.png"
-
-  # author will appear under the avatar (optional)
-  author: Kostis Gourgoulias
+# Site settings
+title: Kostis Gourgoulias
+email: kgourgoulias+mywebsite@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: localhost:4000 # the base hostname & protocol for your site
 
 
 
-  # tagline will appear under the title (optional)
-  tagline: PhD Student, Applied Mathematics
+# Sidebar settings
+description: 
 
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: false
+# Social icons
+#facebook: username
+linkedin: kgourgoulias
+github: kgourgou
+deviantart: username
+codepen: username
 
-# Dependencies
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-
-# Permalinks
-permalink: pretty
-# relative_permalinks: true
