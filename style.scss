@@ -144,21 +144,36 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 {
     font-family: "Roboto Condensed", Arial, sans-serif;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: #666666;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .content a {
     font-family: "Roboto Condensed", Arial, sans-serif;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     line-height: normal;
     font-style: normal;
     color: #8C8C8C;
-    font-weight: 400;
+    font-weight: 500;
 }
+
+.content li {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    color: #666666;
+    font-weight: 500;
+    padding: 3px;
+}
+
+}
+
+
+
 
 .content pre
 {
