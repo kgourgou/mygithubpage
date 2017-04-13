@@ -2,102 +2,145 @@
 layout: default
 ---
 
-      <div id="picture" style="background-image: url(me.png)"></div>
-      <p>{{site.description}}</p> 
-     
-      
-      <div id="social-icons">
-        <ul>
-            <li> <a href="mailto:kgourgoulias+mywebsite@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-            <!-- <li><a href="https://researchgate.com/{{ site.rgate }}"><i class="fa fa-linkedin"></i></a></li> -->
-            <li><a  href="https://twitter.com/kgourg"><i class="fa fa-twitter fa-2x"></i></a></li>
-            <li><a href="https://mx.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin fa-2x"></i></a></li>
-            <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github fa-2x"></i></a></li>
-        </ul>
-      </div>
+<div id="picture" style="background-image: url(me.png)"></div>
+<p>{{site.description}}</p>
 
 
-      <div class="post-container">
-
-     <h2 class="post-title"> Hello</h2>
-     <hr>
-     <p>
-  My name is Kostis Gourgoulias and I am a PhD candidate in (Applied) Mathematics at UMass Amherst, advised by Professors
-  <a href="http://people.math.umass.edu/~markos/">Markos Katsoulakis</a>
-  and <a href="http://people.math.umass.edu/~lr7q/">Luc
-     Rey-Bellet</a>.  I'm also affiliated with the <a href="http://gridclub.io/">GRiD</a> (Graduate Researchers in Data) group and an assistant
-      organizer for the <a href="http://www.meetup.com/Pioneer-Valley-and-Five-College-R-Statistical-Meetup">Western Mass Data Science, Stats, and R meetup group </a>.
-     </p>
-
-     <p>To learn more about what I have been up to, feel free to connect with me on LinkedIn.</p>
-
-     <!-- research interests -->
-  <h3 class="post-title"> Research Interests</h3>
-  <hr>
-  <!-- short summary of research interests -->
-  <p>
-      My research interests lie in applied mathematics, probabilistic modeling, and statistics. I am particularly interested in problems that are interdisciplinary and combine computations and mathematical thought.</p>
-  <p>
-      As part of my thesis work, I developed theory and computational tools,
-      inspired from information theory, statistical physics, and Bayesian statistics, to quantify uncertainties in probabilistic models and to assist with picking appropriate numerical schemes for long-time simulations. 
-  </p>
-
-
-  <!-- contact details -->
-  <h3 class="post-title"> Contact</h3>
-  <p>
-  My email address is <a href="mailto:kgourgoulias+mywebsite@gmail.com">kgourgoulias at gmail.com</a>
-  </p>
-      </div>
-
-
- <!-- Publications to be moved to a markdown post once I have more. -->
- <div class="post-container">
-  <h2 class="post-title">Publications</h2>
-  <hr>
-  <p>
-  <ul>
-      <li> Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel KMC, with Markos A. Katsoulakis and Luc Rey-Bellet. Accepted at <a href="http://epubs.siam.org/doi/abs/10.1137/15M1047271">SISC (2016)</a>. <a href="http://arxiv.org/abs/1511.08240">[arXiv]</a>
-
-          <!-- <a href=""> (What is this project about?) </a> -->
-
-      </li>
-
-      <li> Information criteria for quantifying loss of reversibility in parallelized KMC, with Markos A. Katsoulakis and Luc Rey-Bellet. Accepted at the <a href="http://www.sciencedirect.com/science/article/pii/S0021999116305290">Journal of Computational Physics (2016).</a> <a href="https://arxiv.org/abs/1605.02375">[arXiv]</a>
-
-          <!-- <a href="">(What is this project about?)</a> -->
-      </li>
-
-      <li> Information-theoretical bounds for uncertainty quantification, with Markos A. Katsoulakis, Luc Rey-Bellet and Jie Wang. In preparation. 
-      </li>
-  </ul>
-  </p>
- </div>
-
+<div id="social-icons"> <ul> <li> <a
+                                      href="mailto:kgourgoulias+mywebsite@gmail.com"><i
+                                      class="fa fa-envelope fa-2x"></i></a></li>
+                                      <!-- <li><a
+                                      href="https://researchgate.com/{{
+                                      site.rgate }}"><i class="fa
+                                      fa-linkedin"></i></a></li> --> <li><a
+                                      href="https://twitter.com/kgourg"><i
+                                      class="fa fa-twitter fa-2x"></i></a></li>
+                                      <li><a href="https://mx.linkedin.com/in/{{
+                                      site.linkedin }}"><i class="fa fa-linkedin
+                                      fa-2x"></i></a></li> <li><a
+                                      href="http://github.com/{{ site.github
+                                      }}"><i class="fa fa-github
+                                      fa-2x"></i></a></li> </ul> </div>
 
 
 <div class="post-container">
 
-  <h2 class="post-title">Blog</h2>
-  <hr>
+    <h2 class="post-title"> Hello</h2> <hr> <p> My name is Kostis Gourgoulias
+        and I am a PhD candidate in (Applied) Mathematics at UMass Amherst,
+        advised by Professors <a
+        href="http://people.math.umass.edu/~markos/">Markos Katsoulakis</a> and
+        <a href="http://people.math.umass.edu/~lr7q/">Luc Rey-Bellet</a>. I'm
+        also affiliated with the <a href="http://gridclub.io/">GRiD</a>
+        (Graduate Researchers in Data) group and an assistant organizer for the
+        <a
+        href="http://www.meetup.com/Pioneer-Valley-and-Five-College-R-Statistical-Meetup">Western
+        Mass Data Science, Stats, and R meetup group </a>. </p>
 
-  {% for post in site.posts %}
-    <div class ="post-preview">
-      <span class="post-title">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </span>
+    <p>To learn more about what I have been up to, feel free to connect with me
+        on <a href="https://mx.linkedin.com/in/kgourgoulias">LinkedIn</a>.</p>
 
-      <span class="post-time">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </span>
+    <!-- research interests --> <h3 class="post-title"> Research Interests</h3>
+    <hr> <!-- short summary of research interests -->
+
+    <p> My research interests
+    lie in applied mathematics, probabilistic modeling, and statistics. I am
+    particularly interested in problems that are interdisciplinary and combine
+        computations and mathematical thought. Recently, I have also been thinking a lot between the interplay between data science, machine learning and numerical analysis.</p>
+
+    <p>
+        My thesis can be condensed to the following points:
+
+        <ul>
+            <li> Trying to pick an appropriate numerical scheme for your problem? This can be interpreted as model selection! </li>
+            <li>Information criteria (IC) can be designed that can capture computational/theoretical trade-offs, e.g., communication between different processors in parallel computing, computer memory budget, fidelity of model, etc.</li>
+            <li>IC can also capture model bias for specific observables.</li>
+        </ul>
+    </p>
 
 
-    </div>
+    <!-- contact details --> <h3 class="post-title"> Contact</h3> <p> My email
+        address is <a
+        href="mailto:kgourgoulias+mywebsite@gmail.com">kgourgoulias at
+        gmail.com</a> </p> </div>
 
-    {% endfor %}
+
+<!-- Publications to be moved to a markdown post once I have more. --> <div
+                                                                           class="post-container">
+                                                                           <h2
+                                                                           class="post-title">Publications</h2>
+                                                                           <hr>
+                                                                           <p>
+                                                                           <ul>
+                                                                           <li>
+                                                                           Information
+                                                                           metrics
+                                                                           for
+                                                                           long-time
+                                                                           errors
+                                                                           in
+                                                                           splitting
+                                                                           schemes
+                                                                           for
+                                                                           stochastic
+                                                                           dynamics
+                                                                           and
+                                                                           parallel
+                                                                           KMC,
+                                                                           with
+                                                                           Markos
+                                                                           A.
+                                                                           Katsoulakis
+                                                                           and
+                                                                           Luc
+                                                                           Rey-Bellet.
+                                                                           Accepted
+                                                                           at <a
+                                                                           href="http://epubs.siam.org/doi/abs/10.1137/15M1047271">SISC
+                                                                           (2016)</a>.
+                                                                           <a
+                                                                           href="http://arxiv.org/abs/1511.08240">[arXiv]</a>
+
+            <!-- <a href=""> (What is this project about?) </a> -->
+
+        </li>
+
+        <li> Information criteria for quantifying loss of reversibility in
+            parallelized KMC, with Markos A. Katsoulakis and Luc Rey-Bellet.
+            Accepted at the <a
+            href="http://www.sciencedirect.com/science/article/pii/S0021999116305290">Journal
+            of Computational Physics (2016).</a> <a
+            href="https://arxiv.org/abs/1605.02375">[arXiv]</a>
+
+            <!-- <a href="">(What is this project about?)</a> --> </li>
+
+        <li> Information-theoretical bounds for uncertainty quantification, with
+            Markos A. Katsoulakis, Luc Rey-Bellet and Jie Wang. In preparation.
+            </li> </ul> </p> </div>
 
 
 
-</div>
+                                                                           <div
+                                                                           class="post-container">
+
+                                                                               <h2
+                                                                               class="post-title">Blog</h2>
+                                                                               <hr>
+
+                                                                               {%
+for post in site.posts %} <div class ="post-preview"> <span class="post-title">
+<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> {{
+post.title }} </a> </span>
+
+                                                                                   <span
+class="post-time"> <p>{{ post.date | date: "%b %-d, %Y" }}</p> </span>
+
+
+                                                                               </div>
+
+                                                                               {%
+                                                                               endfor
+                                                                               %}
+
+
+
+                                                                           </div>
