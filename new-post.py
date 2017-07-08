@@ -9,7 +9,7 @@
 
 $ python new-post "title of the post"
 
-or, new-post can be executed directly,
+new-post can also be executed directly:
 
 $ new-post "title of the post"
 
@@ -46,6 +46,7 @@ tags: %s
     try:
         fp = open(path, 'w')
         fp.write(post)
+        print "It all worked out!"
     finally:
         if fp:
             fp.close()
