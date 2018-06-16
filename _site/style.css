@@ -30,8 +30,10 @@ th.title {
   margin-bottom: 8px; }
 
 .wrapper {
-  display: flex;
-  min-height: 100%; }
+  min-height: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 1rem; }
 
 input[data-function*='swipe'] {
   position: absolute;
@@ -110,19 +112,28 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 .content p {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background-color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   color: #666666;
-  font-weight: 400; }
+  font-weight: 500; }
 
 .content a {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background-color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: normal;
   font-style: normal;
-  color: #8C8C8C;
-  font-weight: 400; }
+  color: #DC143C;
+  font-weight: 500; }
+
+.content li {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  background-color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  color: #666666;
+  font-weight: 500;
+  padding: 3px; }
 
 .content pre {
   border: none;
