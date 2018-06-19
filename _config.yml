@@ -16,7 +16,8 @@ social-linkedin: kgourgoulias # add your Linkedin handle
 social-email: kgourgoulias+mywebsite@gmail.com # add your Email address
 
 # Disqus
-discus-identifier:  # add your discus identifier
+discus-identifier: disqus_LZJ2gyisrv # add your discus identifier
+
 
 # Tracker
 analytics: # Google Analytics
