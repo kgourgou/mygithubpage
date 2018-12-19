@@ -1,35 +1,107 @@
-title: Hello and welcome to my website!
-description:  # this means to ignore newlines until "baseurl:"
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "kgourgou.me" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# main text of home
+name: Kostis Gourgoulias 
+bio: Applied Mathematician, Research Scientist at Babylon Health
 
-# Author Settings
-author: Kostis Gourgoulias # add your name
-author-img: me.png # add your photo
-about-author: Applied Mathematician, AI Research Scientist at Babylon Health. # add description
-social-twitter: kgourg# add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: kgourgou # add your Github handle
-social-linkedin: kgourgoulias # add your Linkedin handle
-social-email: kgourgoulias+mywebsite@gmail.com # add your Email address
+# twitter summary info
+description:
 
-# Disqus
-discus-identifier: disqus_LZJ2gyisrv # add your discus identifier
+# if it's an external image, update below for true
+# better with square images
+external-image: true
+picture: assets/images/me.jpg
 
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: false
+resume-external: true
+resume-url: https://google.com/?q=my+resume
 
-# Tracker
-analytics: # Google Analytics
+url: http://kgourgou.me
+# your url: http://USERNAME.github.io
 
-# Build Settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mydisqus # enter this from your disqus account
+  categories: [] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+#facebook: myfacebook
+twitter: kgourg
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+github: kgourgou
+# gitlab: mygitlab
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+#medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: kgourgoulias+mywebsite@gmail.com
+
+authors:
+    johndoe:
+        name: Kostis Gourgoulias
+        bio: Applied Mathematician, Research Scientist at Babylon Health
+        external-image: false
+        picture: assets/images/me.jpg
+        twitter: kgourg
+    
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+#projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: false
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+plugins_dir:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
+  - jekyll-admin
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+jekyll-mentions:
+    base_url: https://github.com

@@ -1,5 +1,5 @@
-group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jemoji"
-end
+source 'http://rubygems.org'
+
+gem 'github-pages'
+gem 'html-proofer'
+gem 'jekyll-admin'
