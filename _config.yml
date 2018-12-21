@@ -5,6 +5,9 @@ bio: Applied Mathematician, Research Scientist at Babylon Health
 # twitter summary info
 description:
 
+markdown: kramdown
+
+
 # if it's an external image, update below for true
 # better with square images
 external-image: true
