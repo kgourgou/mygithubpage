@@ -2,8 +2,8 @@
 layout: post
 title: "Bounds on joint probabilities - Part I"
 date: 2018-06-29 12-31-22 +0100
-categories: 
-tags: 
+category: blog 
+tag:  
 ---
 
 Here are some notes on bounding joint probability distributions. Enjoy! This was
