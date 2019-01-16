@@ -2,7 +2,7 @@
 layout: post
 title: "PhD defense is scheduled"
 date: 2017-02-09 20-54-22 -0500
-categories: 
+category: blog 
 tags: 
 ---
 
