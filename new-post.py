@@ -46,7 +46,7 @@ tags: %s
     try:
         fp = open(path, 'w')
         fp.write(post)
-        print "It all worked out!"
+        print("It all worked out!")
     finally:
         if fp:
             fp.close()
