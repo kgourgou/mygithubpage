@@ -2,7 +2,7 @@
 layout: post
 title: "New manuscript: how biased is your model?"
 date: 2017-07-08 15-15-09 +0100
-categories: 
+categories: blog
 tags: 
 ---
 
