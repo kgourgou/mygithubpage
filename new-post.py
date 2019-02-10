@@ -38,7 +38,7 @@ def main():
 layout: post
 title: "%s"
 date: %s
-categories: %s
+category: %s
 tags: %s
 ---'''
     post = yaml % (title, date, categories, tags)
