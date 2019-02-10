@@ -38,7 +38,7 @@ def main():
 layout: post
 title: "%s"
 date: %s
-categories: %s
+category: %s
 tags: %s
 ---'''
     post = yaml % (title, date, categories, tags)
@@ -46,7 +46,7 @@ tags: %s
     try:
         fp = open(path, 'w')
         fp.write(post)
-        print "It all worked out!"
+        print("It all worked out!")
     finally:
         if fp:
             fp.close()
