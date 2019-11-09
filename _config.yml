@@ -42,10 +42,11 @@ twitter: kgourg
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: kgourgoulias
 # youtube: myyoutube
 # spotify: myspotify
 github: kgourgou
+scholar: V1S7npsAAAAJ&hl=en
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -68,11 +69,11 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+#paginate: 5
+#paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 #projects: true
@@ -91,7 +92,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: []
+post-advance-links: [blog]
 
 # show author block at the end of a post ?
 show-author: true
@@ -105,6 +106,7 @@ plugins_dir:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-latex
 
 jekyll-mentions:
     base_url: https://github.com
