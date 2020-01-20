@@ -7,9 +7,7 @@ tags:
 
 ---
 
-I recently heard of this nice integral representation of the logarithm in 1912.05812v1 by Neri Merhan and Igar Sason. Most ideas in this post are from there. The transform is:
-
-
+I recently read this nice integral representation of the logarithm in 1912.05812v1 by Neri Merhan and Igar Sason. Most ideas in this post are from there. The transform is:
 $$
 \log(x)=\int_{0}^{\infty}\frac{e^{-t}-e^{-tx}}{t}dt.
 $$
