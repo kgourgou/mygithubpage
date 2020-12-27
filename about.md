@@ -5,26 +5,25 @@ title: About
 
 # About me
 
-Hello! 👋 
+Hello! 👋
 
-It is now fashionable again to have a small bio on one’s website, so here’s some stuff about me. 
+It is now fashionable again to have a small bio on one’s website, so here’s some stuff about me.
 
-My name is Kostis and I’m a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/). I mostly think about uncertainty quantification and its place in the age of machine-learned models. I particularly like tools from information theory, stochastic processes, and high-performance computing.
+My name is Kostis and I’m a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/). I mostly think about uncertainty quantification and its place in the age of machine-learned models. I particularly like tools from information theory, stochastic processes, and Bayesian statistics.
+
+For my research, see the [research post]({{site.url}}/Research/) or [Google Scholar](https://scholar.google.com/citations?user=V1S7npsAAAAJ&hl=en) (scholar is more up-to-date).
 
 
-For my research, see the [research post]({{site.url}}/Research/) or [Google Scholar](https://scholar.google.com/citations?user=V1S7npsAAAAJ&hl=en). 
+## Education
 
+I graduated from UMass Amherst with a PhD in (Applied) Mathematics in 2017, advised by Professor Markos Katsoulakis and Professor Luc Rey-Bellet. My thesis was titled "information metrics for predictive modeling and machine learning" and can be found at [UMass Scholarworks](https://scholarworks.umass.edu/dissertations_2/1006/).
 
-## Education 
+Before UMass, I graduated from the University of Crete with a BSc. in Applied Mathematics.
 
-I graduated from UMass Amherst with a PhD in (Applied) Mathematics in 2017, advised by Professor Markos Katsoulakis and Professor Luc Rey-Bellet. My thesis was titled "information metrics for predictive modeling and machine learning" and can be found at [UMass Scholarworks](https://scholarworks.umass.edu/dissertations_2/1006/). 
-
-Before UMass, I graduated from the University of Crete with a BSc. in Applied Mathematics. 
-
-## Trivia 
+## Trivia
 
 - [My math genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=228804).
 
-- During my PhD, I co-founded and chaired the [GRiD](https://github.com/gridclub) (Graduate Researchers in Data) group at UMass. 
+- During my PhD, I co-founded and chaired the [GRiD](https://github.com/gridclub) (Graduate Researchers in Data) group at UMass.
 
-- I like to [write](https://www.quora.com/profile/Kostis-Gourgoulias) about science and explain [whatever](https://inlieuofabettertitle.wordpress.com/) I find [interesting](https://github.com/kgourgou/Linear-Perceptron).
+- I like to [write](https://www.quora.com/profile/Kostis-Gourgoulias) about science and explain [whatever](https://inlieuofabettertitle.wordpress.com/) I find [interesting](https://github.com/kgourgou/Linear-Perceptron). You can find more examples on this website.
