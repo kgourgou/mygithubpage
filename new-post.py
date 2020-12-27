@@ -23,7 +23,7 @@ def main():
     parser = argparse.ArgumentParser(description='Jekyll Post')
     parser.add_argument('title', help='The title of the post.')
     #parser.add_argument('category', help='The categores of the post.')
-    #parser.add_argument('--tag', help='The tags of the post.')
+    parser.add_argument('--tag', help='The tags of the post.', default='blog')
     args = parser.parse_args()
     
     title = args.title
