@@ -19,11 +19,11 @@ When does that exist and when is it unique? Hints can be taken from the Laplace 
 
 ## Fredholm equations
 
-If we know $$E_t=E_{P_t}[f]$$ for every $$t\in A$$, can we recover $$f$$? Formally, we have the equation:
+If we know $$E(t)=E_{P_t}[f]$$ for every $$t\in A$$, can we recover $$f$$? Formally, we have the equation:
 $$
-E(t)=\int k(x,t)f(x)dx.
+E(t)=\int k(x,t)f(x)dx,
 $$
-This equation is called a **Fredholm Equation of the first kind** (cause it doesn't have an "eigenvalue" component). Formally, the integral should also have limits. 
+with appropriate limits for the integral. This equation is called a ["Fredholm Equation of the first kind"](https://en.wikipedia.org/wiki/Fredholm_integral_equation) and is closely studied in functional analysis and signal processing. 
 
 
 
