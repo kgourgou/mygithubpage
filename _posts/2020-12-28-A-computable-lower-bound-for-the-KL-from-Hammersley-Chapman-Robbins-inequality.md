@@ -61,10 +61,11 @@ where the integral depends on $$E_P, E_Q, V_P, V_Q$$ and can be computed analyti
 # Tighter lower-bounds
 
 Starting from the equality:
+
 $$KL(P|Q)=\int_0^1 \frac{\chi^2(P|R_t)}{t}dt$$
 
 we can derive tighter lower bounds for the KL. First, we write the variational representation of  $$\chi^2$$ 
 
 $$\chi^2(P|R_t)=\sup_{h}\left \{ 2E_P[h]-E_Q[h^2]-1\right \}.$$
 
-Suppressing the family of functions leads to lower bounds of $$\chi^2$$ and thus to lower bounds of $$KL(P|Q)$$. The HCR bound can be derived by considering the class of first degree polynomials: $$ax+b$$.  
+Suppressing the family of functions leads to lower bounds of chi-square and thus to lower bounds of $$KL(P|Q)$$. The HCR bound can be derived by considering the class of first degree polynomials: $$ax+b$$.  
