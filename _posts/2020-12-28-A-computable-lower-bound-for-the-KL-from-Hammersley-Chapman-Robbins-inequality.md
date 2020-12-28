@@ -67,4 +67,4 @@ we can derive tighter lower bounds for the KL. First, we write the variational r
 
 $$\chi^2(P|R_t)=\sup_{h}\left \{ 2E_P[h]-E_Q[h^2]-1\right \}.$$
 
-Suppressing the family of functions leads to lower bounds of $$\chi^2$$ and, by (8), to lower bounds of $$KL(P|Q)$$. The HCR bound can be derived by considering the class of first degree polynomials: $$ax+b$$.  
+Suppressing the family of functions leads to lower bounds of $$\chi^2$$ and thus to lower bounds of $$KL(P|Q)$$. The HCR bound can be derived by considering the class of first degree polynomials: $$ax+b$$.  
