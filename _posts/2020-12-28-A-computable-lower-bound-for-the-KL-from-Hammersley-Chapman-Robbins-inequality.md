@@ -6,7 +6,6 @@ category: blog
 tags: 
 ---
 
-# A computable lower bound for the KL from Hammersley-Chapman-Robbins inequality
 
 I first read of this bound from: 
 
