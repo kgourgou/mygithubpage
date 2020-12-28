@@ -6,7 +6,6 @@ category: blog
 tags: 
 ---
 
-# Rediscovering a function from samples
 
 A friend shared this nice problem with me. Suppose you have a fixed function, $$f$$, and a family of probability distributions, defined by, say, prob. density functions, $$P_t$$, $$t \in A$$. If we know $$E_t=E_{P_t}[f]$$ for every $$t\in A$$, can we recover $$f$$?
 
