@@ -22,7 +22,7 @@ $$E[f']<\infty$$ we have:
 $$\mathbb{E}[xf(x)-f'(x)]=0.$$
 
 The operator $$Af:=xf-f'$$ is then called the Stein operator and we can rewrite
-the result with this operator as: $$\mathbb{E}{P}[Af]=0$$ for all $$f\in C^1_b$$ iff
+the result with this operator as: $$\mathbb{E}_{P}[Af]=0$$ for all $$f\in C^1_b$$ iff
 $$P$$ is $$N(0,1)$$.
 
 This operator is not unique as we can always add P-measure zero parts; see
