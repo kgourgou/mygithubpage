@@ -26,4 +26,4 @@ Before UMass, I graduated from the University of Crete with a BSc. in Applied Ma
 
 - During my PhD, I co-founded and chaired the [GRiD](https://github.com/gridclub) (Graduate Researchers in Data) group at UMass.
 
-- I like to [write](https://www.quora.com/profile/Kostis-Gourgoulias) about science and explain [whatever](https://inlieuofabettertitle.wordpress.com/) I find [interesting](https://github.com/kgourgou/Linear-Perceptron). You can find more examples on this website.
+- I like to [write](https://www.quora.com/profile/Kostis-Gourgoulias) about science and explain [whatever](https://inlieuofabettertitle.wordpress.com/) I find [interesting](https://github.com/kgourgou/Linear-Perceptron), especially in the fields of math that interest me. You can find more examples in [my blog](http://kgourgou.me).
