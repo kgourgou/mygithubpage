@@ -9,7 +9,12 @@ Hello! 👋
 
 It is now fashionable again to have a small bio on one’s website, so here’s some stuff about me.
 
-My name is Kostis and I’m a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/). At Babylon, I work on applications of machine learning and artificial intelligence to diagnostics and automated-decision making.
+My name is Kostis and I’m a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/).
+
+
+## Research
+
+At Babylon, I work on applications of machine learning and artificial intelligence to diagnostics and automated-decision making. I'm currently interested in designing systems that can provide decision and insights in regimes with unbalanced or little data. To accomplish this, I often borrow tools from Bayesian statistics, graphical models, information theory, and deep learning.
 
 For more about my research, see the [research post]({{site.url}}/Research/) or [Google Scholar](https://scholar.google.com/citations?user=V1S7npsAAAAJ&hl=en) (scholar is more up-to-date).
 
