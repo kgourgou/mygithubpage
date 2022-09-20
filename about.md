@@ -9,7 +9,7 @@ Hello! 👋
 
 It is now fashionable again to have a small bio on one’s website, so here’s some stuff about me.
 
-My name is Kostis Gourgoulias and, since March 2022, I’m a researcher and VP, Applied Research, at [JPMorgan Chase](https://www.jpmorgan.com/technology/artificial-intelligence). Before that, I was a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/).
+My name is Kostis Gourgoulias and, since March 2022, I’m a research scientist at [JPMorgan Chase](https://www.jpmorgan.com/technology/artificial-intelligence). Before that, I was a senior research scientist in the AI group of [Babylon Health](https://www.babylonhealth.com/).
 
 ## Research
 
