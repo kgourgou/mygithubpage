@@ -13,7 +13,7 @@ My name is Kostis Gourgoulias and, since March 2022, I’m a research scientist 
 
 ## Research
 
-At JPMorgan, I conduct long-term ML research and explore applications that are of interest to the bank and its clients.
+At JPMorgan, I conduct short-term (and some medium-term) ML research and explore applications that are of interest to the bank and its clients.
 
 At Babylon, I worked on applications of machine learning and artificial intelligence to diagnostics and automated decision-making. My work at Babylon also resulted in a few publications and some patents; you can find a few of them on the [research post]({{site.url}}/Research/) on this site or [Google Scholar](https://scholar.google.com/citations?user=V1S7npsAAAAJ&hl=en) (scholar is more up-to-date).
 
