@@ -11,7 +11,7 @@ My name is Kostis Gourgoulias and, since March 2022, I’m a research scientist 
 
 ## Research
 
-At JPMorgan, I currently lead a few applied research directions on using language modeling to assist with Q&A, summarisation, anomaly detection, and code diagnostics. 
+At JPMorgan, I currently lead a few research directions on using language modeling to assist with Q&A, summarisation, anomaly detection, and code diagnostics. 
 
 At Babylon, I worked on applications of machine learning to medical diagnostics and automated decision-making. My work has appeared in a few publications and patents; you can find a few of them on the [research post]({{site.url}}/Research/) on this site or [Google Scholar](https://scholar.google.com/citations?user=V1S7npsAAAAJ&hl=en) (scholar is more up-to-date). 
 
