@@ -2,7 +2,7 @@
 layout: post
 title: "SetFit and Integrated Gradients"
 date: 2023-07-30 11-19-39 +0100
-category: 
+category: blog 
 tags: 
 ---
 
