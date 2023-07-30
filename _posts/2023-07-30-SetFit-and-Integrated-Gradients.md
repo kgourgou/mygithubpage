@@ -16,5 +16,6 @@ I have been contributing some time to that library on Github as well.
 
 ## What are integrated gradients ?
 
-[Integrated gradients](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients) is a method for attributing the output of a neural network to its inputs. It was first developed to explain the output of image classifiers, but it can be used for any model that takes a vector as input. 
+[Integrated gradients (IG)](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients) are a method for attributing the output of a neural network to its inputs. It was first developed to explain the output of image classifiers, but it can be used for any model that takes a vector as input. 
 
+It occured to me by building this that there are various places one could perturb to apply IG and that the perturbation path probably also matter a lot. 
