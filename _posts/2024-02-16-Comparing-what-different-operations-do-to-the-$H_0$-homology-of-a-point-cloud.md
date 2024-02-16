@@ -8,23 +8,19 @@ tags:
 
 
 
-I’ve recently become interested in [persistent homology](https://jeremykun.com/2013/04/03/homology-theory-a-primer/) and using its statistics to understand how different operations change the shape of data manifolds. 
+I’ve recently become interested in [persistent homology](https://jeremykun.com/2013/04/03/homology-theory-a-primer/) and using its statistics to understand how different operations change the shape of data manifolds.
 
-The math are really interesting (and are for another post), but I like to have some visuals that I can share with interested parties when I do presentations, so I created a notebook for this. 
+The math are really interesting (and are for another post), but I like to have some visuals that I can share with interested parties when I do presentations, so I created a notebook for this.
 
 ## The theoretical minimum
 
 The densities below are kernel-density-estimates (aka., probability densities) of the “death times” of the $H_0$ homology for the $X$ point cloud (the one created with `make_classification` below). But what does “death time” mean here?
 
-Persistent homology (PH) is all about understanding the aspects of the shape of a manifold from sampled points (aka, a point cloud). In this note, we are looking at only one attribute that is captured by PH, the connected components of the manifold. PH looks at the point cloud at various scales, from the scale of the individual points to the scale of the entire dataset. As PH works through the different scales, it identifies when connected components get created (birth) and when they merge (death, for some of them). As every point on its own initially constitutes a connected component, the birth times are all equal to zero. 
+Persistent homology (PH) is all about understanding the aspects of the shape of a manifold from sampled points (aka, a point cloud). In this note, we are looking at only one attribute that is captured by PH, the connected components of the manifold. PH looks at the point cloud at various scales, from the scale of the individual points to the scale of the entire dataset. As PH works through the different scales, it identifies when connected components get created (birth) and when they merge (death, for some of them). As every point on its own initially constitutes a connected component, the birth times are all equal to zero.
 
+The density plots below are tracking the death times and how those change as we manipulate the point cloud. For each case, I’m showing both the death times as they are (`Normalised=False`) and what happens if we normalise by the maximum finite persistence time. Normalising them makes the death times invariant to point cloud scaling (as you will see below).
 
-
-The density plots below are tracking the death times and how those change as we manipulate the point cloud. For each case, I’m showing both the death times as they are (`Normalised=False`) and what happens if we normalise by the maximum finite persistence time. Normalising them makes the death times invariant to point cloud scaling (as you will see below). 
-
-##  The plots
-
-
+## The plots
 
 ```python
 N_FEAT = 50
@@ -43,27 +39,23 @@ X, _ = datasets.make_classification(
 X = 2 + 3 * X
 ```
 
-![png](output_files/output_3_0.png)
+![png](../assets/output_files/output_3_0.png)
 
 ```python
 # contraction mapping
 Xcontr = X / 2
 ```
 
-![png](output_files/output_4_0.png)
+![png](../assets/output_files/output_4_0.png)
 
 ```python
 # expansion mapping
 Xexp = X * 2
 ```
 
-![png](output_files/output_5_0.png)
+![png](../assets/output_files/output_5_0.png)
 
-
-
-Things are as expected up to this point. A few more interesting operations follow. 
-
-
+Things are as expected up to this point. A few more interesting operations follow.
 
 ```python
 # generate a random affine contraction matrix A
@@ -74,14 +66,14 @@ b = np.random.rand(N_FEAT)
 Xaff = X @ A + b
 ```
 
-![png](output_files/output_6_1.png)
+![png](../assets/output_files/output_6_1.png)
 
 ```python
 # map to a lower dimension
 Xlow = X[:, :2]
 ```
 
-![png](output_files/output_7_0.png)
+![png](../assets/output_files/output_7_0.png)
 
 ```python
 # map to lower dimensions with a random affine map
@@ -92,7 +84,7 @@ b = np.random.rand(10)
 Xaff = X @ A + b
 ```
 
-![png](output_files/output_8_1.png)
+![png](../assets/output_files/output_8_1.png)
 
 ```python
 # same affine transformation but with a relu function applied to the output
@@ -100,7 +92,7 @@ Xaff = X @ A + b
 Xaff_relu = np.maximum(0, X @ A + b)
 ```
 
-![png](output_files/output_9_0.png)
+![png](../assets/output_files/output_9_0.png)
 
 ```python
 # two layer neural network with relu activation
@@ -117,7 +109,7 @@ Xnn = Xnn @ A2 + b2
 
 ```
 
-![png](output_files/output_10_1.png)
+![png](../assets/output_files/output_10_1.png)
 
 ```python
 # layernorm
@@ -126,5 +118,4 @@ Xlayernorm = (X - X.mean(axis=1, keepdims=True)) / X.std(axis=1, keepdims=True)
 
 ```
 
-![png](output_files/output_11_0.png)
-
+![png](../assets/output_files/output_11_0.png)
